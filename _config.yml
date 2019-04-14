@@ -1,9 +1,9 @@
 # Site settings
 title: Zang's Blog
-SEOTitle: Hello | World
+SEOTitle: 欢迎来到 | Zang's Blog
 header-img: img/home-bg.jpg
 email: false
-description: "一些碎碎念"
+description: "建设中"
 keyword: ""
 url: "http://zangsy.com"              # your host, for absolute URL
 baseurl: "/zangsy.github.io"         # for example, '/blog' if your blog hosted on 'host/blog'
@@ -11,12 +11,12 @@ baseurl: "/zangsy.github.io"         # for example, '/blog' if your blog hosted 
 
 
 # SNS settings
-RSS: false
-weibo_username:     false
-zhihu_username:     false
+#RSS: false
+#weibo_username:     false
+#zhihu_username:     false
 github_username:    zangsy
 #twitter_username:  thezangsy
-facebook_username:  false
+#facebook_username:  false
 
 
 
