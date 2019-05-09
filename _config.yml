@@ -24,7 +24,7 @@ github_username:  zangsy
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-console
+theme: minima
 plugins:
   - jekyll-feed
 
