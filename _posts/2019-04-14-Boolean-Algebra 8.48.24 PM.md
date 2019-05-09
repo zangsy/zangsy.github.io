@@ -83,7 +83,7 @@ A(B+C) &= AB+AC \\
   &= A1+BC \\ 
   &= A+BC
   \end{aligned}
-  $$
+$$
 
 ---
 
@@ -124,7 +124,7 @@ A+AB &= A \\
   \\
   A(\overline{A}+B) &= AB \\
   \end{aligned}
-  $$
+$$
 
 ---
 
@@ -141,7 +141,7 @@ AB+\overline{A}B &= B \\
   &= B0+B \\
   &= B \\
   \end{aligned}
-  $$
+$$
 
 ---
 
@@ -152,6 +152,6 @@ AB+\overline{A}B &= B \\
   \begin{aligned}
   \overline{A}+\overline{B} &= \overline{(AB)} \\
   \\
-  \overline{A}\overline{B} &= \overline{(A+B)} \\
+  \overline{(A+B)} &= \overline{A}\overline{B} \\
   \end{aligned}
   $$
