@@ -51,7 +51,7 @@ tags:
 ---
 
 * **Complements**
-  * A + ¬A = 1
+  * A + $$\vec{A}$$ = 1
   * A ¬A = 0​
 
 ---
