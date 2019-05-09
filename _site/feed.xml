@@ -1,55 +1,22 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-05-09T17:51:15+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">晴耕雨読</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Boolean Algebra</title><link href="http://localhost:4000/2019/04/14/Boolean-Algebra-8.48.24-PM.html" rel="alternate" type="text/html" title="Boolean Algebra" /><published>2019-04-14T19:03:00+09:00</published><updated>2019-04-14T19:03:00+09:00</updated><id>http://localhost:4000/2019/04/14/Boolean-Algebra%208.48.24%20PM</id><content type="html" xml:base="http://localhost:4000/2019/04/14/Boolean-Algebra-8.48.24-PM.html">&lt;blockquote&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-05-09T19:19:32+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">晴耕雨読</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Boolean Algebra</title><link href="http://localhost:4000/2019/04/14/Boolean-Algebra-8.48.24-PM.html" rel="alternate" type="text/html" title="Boolean Algebra" /><published>2019-04-14T19:03:00+09:00</published><updated>2019-04-14T19:03:00+09:00</updated><id>http://localhost:4000/2019/04/14/Boolean-Algebra%208.48.24%20PM</id><content type="html" xml:base="http://localhost:4000/2019/04/14/Boolean-Algebra-8.48.24-PM.html">&lt;blockquote&gt;
   &lt;ol&gt;
-    &lt;li&gt;
-      &lt;p&gt;A, B and C in the follwoing are all binary.&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li&gt;
-      &lt;p&gt;¬ means not.&lt;/p&gt;
-    &lt;/li&gt;
+    &lt;li&gt;A, B and C in the follwoing are all binary.&lt;/li&gt;
   &lt;/ol&gt;
+
 &lt;/blockquote&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;OR rules&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;A + 1 = 1​&lt;/li&gt;
-      &lt;li&gt;A + 0 = A​&lt;/li&gt;
-      &lt;li&gt;A + A = A&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;OR rules&lt;/strong&gt;&lt;/p&gt;
 
-&lt;hr /&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;AND rules&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;A 1 = A​&lt;/li&gt;
-      &lt;li&gt;A 0 = 0&lt;/li&gt;
-      &lt;li&gt;A A = A&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Commutative&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;A + B = B + A​&lt;/li&gt;
-      &lt;li&gt;A B = B A&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Associative&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;(A + B) + C = A + (B + C)​&lt;/li&gt;
-      &lt;li&gt;(A B) C = A (B C)​&lt;/li&gt;
-    &lt;/ul&gt;
+    &lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{aligned}
+A + 1 &amp;= 1 \\ 
+\\
+A + 0 &amp;= A \\ 
+\\
+A + A &amp;= A \\
+\end{aligned} %]]&gt;&lt;/script&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
@@ -57,35 +24,16 @@
 
 &lt;ul&gt;
   &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Distributive&lt;/strong&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;AND rules&lt;/strong&gt;&lt;/p&gt;
 
-    &lt;ul&gt;
-      &lt;li&gt;
-        &lt;p&gt;A (B + C) = A B + A C​&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;(A + B) (A + C) = A + B C​&lt;/p&gt;
-
-        &lt;ul&gt;
-          &lt;li&gt;
-            &lt;blockquote&gt;
-              &lt;p&gt;(A + B) (A + C) = A A + A C + B A + B C = A + A C + B A + B C = A (1 + C + B) + B C = A 1 + B C = A + B C&lt;/p&gt;
-            &lt;/blockquote&gt;
-          &lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Complements&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;A + &lt;script type=&quot;math/tex&quot;&gt;\vec{A}&lt;/script&gt; = 1&lt;/li&gt;
-      &lt;li&gt;A ¬A = 0​&lt;/li&gt;
-    &lt;/ul&gt;
+    &lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{aligned} 
+A1 &amp;= A \\ 
+\\
+A0 &amp;= 0 \\ 
+\\
+AA &amp;= A \\
+\end{aligned} %]]&gt;&lt;/script&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
@@ -93,46 +41,14 @@
 
 &lt;ul&gt;
   &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Absorption&lt;/strong&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Commutative&lt;/strong&gt;&lt;/p&gt;
 
-    &lt;ul&gt;
-      &lt;li&gt;
-        &lt;p&gt;A + A B = A&lt;/p&gt;
-
-        &lt;ul&gt;
-          &lt;li&gt;
-            &lt;blockquote&gt;
-              &lt;p&gt;A + A B = A (1 + B) = A 1 = A​&lt;/p&gt;
-            &lt;/blockquote&gt;
-          &lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;A + ¬A B = A + B​&lt;/p&gt;
-
-        &lt;ul&gt;
-          &lt;li&gt;
-            &lt;blockquote&gt;
-              &lt;p&gt;A + ¬A B = A + A B + ¬A B = A + B (A + ¬A) = A + B 1 = A + B​&lt;/p&gt;
-            &lt;/blockquote&gt;
-          &lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;A (A + B) = A​&lt;/p&gt;
-
-        &lt;ul&gt;
-          &lt;li&gt;
-            &lt;blockquote&gt;
-              &lt;p&gt;A (A + B) = A (A + ¬A B) = A A + A ¬A B = A + 0 B = A​&lt;/p&gt;
-            &lt;/blockquote&gt;
-          &lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;A (¬A + B) = A B​&lt;/p&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
+    &lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{aligned} 
+A+B &amp;= B+A \\
+\\
+AB &amp;= BA \\
+\end{aligned} %]]&gt;&lt;/script&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
@@ -140,34 +56,106 @@
 
 &lt;ul&gt;
   &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Reduction&lt;/strong&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;Associative&lt;/strong&gt;&lt;/p&gt;
 
-    &lt;ul&gt;
-      &lt;li&gt;
-        &lt;p&gt;A B + ¬A B = B​&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;(A + B) (¬A + B) = B​&lt;/p&gt;
-
-        &lt;ul&gt;
-          &lt;li&gt;
-            &lt;blockquote&gt;
-              &lt;p&gt;(A + B) (¬A + B) = A ¬A + A B + B ¬A + B B = 0 + B (A + ¬A) + B = B 0 + B = B​&lt;/p&gt;
-            &lt;/blockquote&gt;
-          &lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
+    &lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{aligned} 
+(A+B)+C &amp;= A+(B+C) \\
+\\
+(AB)C &amp;= A(BC) \\
+\end{aligned} %]]&gt;&lt;/script&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;hr /&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;De Morgan’s Law&lt;/strong&gt;
-    &lt;ul&gt;
-      &lt;li&gt;¬A + ¬B = ¬(A B)&lt;/li&gt;
-      &lt;li&gt;¬A ¬B = ¬(A + B)&lt;/li&gt;
-    &lt;/ul&gt;
+  &lt;li&gt;&lt;strong&gt;Distributive&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{aligned} 
+A(B+C) &amp;= AB+AC \\
+  \\
+  (A+B)(A+C) &amp;= A+BC \\
+  &amp;= AA+AC+BA+BC \\ 
+  &amp;= A+AC+BA+BC \\ 
+  &amp;= A(1+C+B)+BC \\
+  &amp;= A1+BC \\ 
+  &amp;= A+BC
+  \end{aligned} %]]&gt;&lt;/script&gt;
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Complements&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{aligned}
+A+\overline{A} &amp;= 1 \\
+\\
+A\overline{A} &amp;= 0 \\
+\end{aligned} %]]&gt;&lt;/script&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>zangsy</name></author><category term="Digital Circuits" /><summary type="html">A, B and C in the follwoing are all binary. ¬ means not.</summary></entry></feed>
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Absorption&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{aligned}
+A+AB &amp;= A \\
+  &amp;= A(1+B) \\
+&amp;= A1 \\
+  &amp;= A \\
+\\
+  A+\overline{A}B &amp;= A+B \\
+&amp;= A+AB+\overline{A}B \\
+  &amp;= A+B(A+\overline{A}) \\
+&amp;= A+B1 \\
+  &amp;= A+B \\
+  \\
+  A(A+B) &amp;= A \\
+  &amp;= A(A+\overline{A}B) \\
+  &amp;= AA+A\overline{A}B \\
+  &amp;= A+0B \\
+  &amp;= A \\
+  \\
+  A(\overline{A}+B) &amp;= AB \\
+  \end{aligned} %]]&gt;&lt;/script&gt;
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Reduction&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{aligned}
+AB+\overline{A}B &amp;= B \\
+  \\
+  (A+B)(\overline{A}+B) &amp;= B \\
+  &amp;= A\overline{A}+AB+B\overline{A}+BB \\
+  &amp;= 0+B(A+\overline{A})+B \\
+  &amp;= B0+B \\
+  &amp;= B \\
+  \end{aligned} %]]&gt;&lt;/script&gt;
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;De Morgan’s Law&lt;/strong&gt;&lt;/p&gt;
+
+    &lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{aligned}
+\overline{A}+\overline{B} &amp;= \overline{(AB)} \\
+\\
+\overline{A}\overline{B} &amp;= \overline{(A+B)} \\
+\end{aligned} %]]&gt;&lt;/script&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>zangsy</name></author><category term="Digital Circuits" /><summary type="html">A, B and C in the follwoing are all binary.</summary></entry></feed>

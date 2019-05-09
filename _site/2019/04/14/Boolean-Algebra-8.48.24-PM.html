@@ -8,32 +8,25 @@
 <meta property="og:title" content="Boolean Algebra" />
 <meta name="author" content="zangsy" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="A, B and C in the follwoing are all binary. ¬ means not." />
-<meta property="og:description" content="A, B and C in the follwoing are all binary. ¬ means not." />
+<meta name="description" content="A, B and C in the follwoing are all binary." />
+<meta property="og:description" content="A, B and C in the follwoing are all binary." />
 <link rel="canonical" href="http://localhost:4000/2019/04/14/Boolean-Algebra-8.48.24-PM.html" />
 <meta property="og:url" content="http://localhost:4000/2019/04/14/Boolean-Algebra-8.48.24-PM.html" />
 <meta property="og:site_name" content="晴耕雨読" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2019-04-14T19:03:00+09:00" />
 <script type="application/ld+json">
-{"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2019/04/14/Boolean-Algebra-8.48.24-PM.html"},"url":"http://localhost:4000/2019/04/14/Boolean-Algebra-8.48.24-PM.html","author":{"@type":"Person","name":"zangsy"},"headline":"Boolean Algebra","dateModified":"2019-04-14T19:03:00+09:00","description":"A, B and C in the follwoing are all binary. ¬ means not.","datePublished":"2019-04-14T19:03:00+09:00","@type":"BlogPosting","@context":"https://schema.org"}</script>
+{"dateModified":"2019-04-14T19:03:00+09:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2019/04/14/Boolean-Algebra-8.48.24-PM.html"},"url":"http://localhost:4000/2019/04/14/Boolean-Algebra-8.48.24-PM.html","author":{"@type":"Person","name":"zangsy"},"description":"A, B and C in the follwoing are all binary.","headline":"Boolean Algebra","@type":"BlogPosting","datePublished":"2019-04-14T19:03:00+09:00","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="晴耕雨読" /></head>
-<body><header class="site-header" role="banner">
-
-  <div class="wrapper"><a class="site-title" rel="author" href="/">晴耕雨読</a><nav class="site-nav">
-        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
-        <label for="nav-trigger">
-          <span class="menu-icon">
-            <svg viewBox="0 0 18 15" width="18px" height="15px">
-              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
-            </svg>
-          </span>
-        </label>
-
-        <div class="trigger"><a class="page-link" href="/about/">About</a></div>
-      </nav></div>
-</header>
+<body><script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+                  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+                          });
+</script>
+<script type="text/javascript"
+  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
@@ -48,56 +41,23 @@
   <div class="post-content e-content" itemprop="articleBody">
     <blockquote>
   <ol>
-    <li>
-      <p>A, B and C in the follwoing are all binary.</p>
-    </li>
-    <li>
-      <p>¬ means not.</p>
-    </li>
+    <li>A, B and C in the follwoing are all binary.</li>
   </ol>
+
 </blockquote>
 
 <ul>
-  <li><strong>OR rules</strong>
-    <ul>
-      <li>A + 1 = 1​</li>
-      <li>A + 0 = A​</li>
-      <li>A + A = A</li>
-    </ul>
-  </li>
-</ul>
+  <li>
+    <p><strong>OR rules</strong></p>
 
-<hr />
-
-<ul>
-  <li><strong>AND rules</strong>
-    <ul>
-      <li>A 1 = A​</li>
-      <li>A 0 = 0</li>
-      <li>A A = A</li>
-    </ul>
-  </li>
-</ul>
-
-<hr />
-
-<ul>
-  <li><strong>Commutative</strong>
-    <ul>
-      <li>A + B = B + A​</li>
-      <li>A B = B A</li>
-    </ul>
-  </li>
-</ul>
-
-<hr />
-
-<ul>
-  <li><strong>Associative</strong>
-    <ul>
-      <li>(A + B) + C = A + (B + C)​</li>
-      <li>(A B) C = A (B C)​</li>
-    </ul>
+    <script type="math/tex; mode=display">% <![CDATA[
+\begin{aligned}
+A + 1 &= 1 \\ 
+\\
+A + 0 &= A \\ 
+\\
+A + A &= A \\
+\end{aligned} %]]></script>
   </li>
 </ul>
 
@@ -105,35 +65,16 @@
 
 <ul>
   <li>
-    <p><strong>Distributive</strong></p>
+    <p><strong>AND rules</strong></p>
 
-    <ul>
-      <li>
-        <p>A (B + C) = A B + A C​</p>
-      </li>
-      <li>
-        <p>(A + B) (A + C) = A + B C​</p>
-
-        <ul>
-          <li>
-            <blockquote>
-              <p>(A + B) (A + C) = A A + A C + B A + B C = A + A C + B A + B C = A (1 + C + B) + B C = A 1 + B C = A + B C</p>
-            </blockquote>
-          </li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-</ul>
-
-<hr />
-
-<ul>
-  <li><strong>Complements</strong>
-    <ul>
-      <li>A + <script type="math/tex">\vec{A}</script> = 1</li>
-      <li>A ¬A = 0​</li>
-    </ul>
+    <script type="math/tex; mode=display">% <![CDATA[
+\begin{aligned} 
+A1 &= A \\ 
+\\
+A0 &= 0 \\ 
+\\
+AA &= A \\
+\end{aligned} %]]></script>
   </li>
 </ul>
 
@@ -141,46 +82,14 @@
 
 <ul>
   <li>
-    <p><strong>Absorption</strong></p>
+    <p><strong>Commutative</strong></p>
 
-    <ul>
-      <li>
-        <p>A + A B = A</p>
-
-        <ul>
-          <li>
-            <blockquote>
-              <p>A + A B = A (1 + B) = A 1 = A​</p>
-            </blockquote>
-          </li>
-        </ul>
-      </li>
-      <li>
-        <p>A + ¬A B = A + B​</p>
-
-        <ul>
-          <li>
-            <blockquote>
-              <p>A + ¬A B = A + A B + ¬A B = A + B (A + ¬A) = A + B 1 = A + B​</p>
-            </blockquote>
-          </li>
-        </ul>
-      </li>
-      <li>
-        <p>A (A + B) = A​</p>
-
-        <ul>
-          <li>
-            <blockquote>
-              <p>A (A + B) = A (A + ¬A B) = A A + A ¬A B = A + 0 B = A​</p>
-            </blockquote>
-          </li>
-        </ul>
-      </li>
-      <li>
-        <p>A (¬A + B) = A B​</p>
-      </li>
-    </ul>
+    <script type="math/tex; mode=display">% <![CDATA[
+\begin{aligned} 
+A+B &= B+A \\
+\\
+AB &= BA \\
+\end{aligned} %]]></script>
   </li>
 </ul>
 
@@ -188,35 +97,107 @@
 
 <ul>
   <li>
-    <p><strong>Reduction</strong></p>
+    <p><strong>Associative</strong></p>
 
-    <ul>
-      <li>
-        <p>A B + ¬A B = B​</p>
-      </li>
-      <li>
-        <p>(A + B) (¬A + B) = B​</p>
-
-        <ul>
-          <li>
-            <blockquote>
-              <p>(A + B) (¬A + B) = A ¬A + A B + B ¬A + B B = 0 + B (A + ¬A) + B = B 0 + B = B​</p>
-            </blockquote>
-          </li>
-        </ul>
-      </li>
-    </ul>
+    <script type="math/tex; mode=display">% <![CDATA[
+\begin{aligned} 
+(A+B)+C &= A+(B+C) \\
+\\
+(AB)C &= A(BC) \\
+\end{aligned} %]]></script>
   </li>
 </ul>
 
 <hr />
 
 <ul>
-  <li><strong>De Morgan’s Law</strong>
-    <ul>
-      <li>¬A + ¬B = ¬(A B)</li>
-      <li>¬A ¬B = ¬(A + B)</li>
-    </ul>
+  <li><strong>Distributive</strong></li>
+</ul>
+
+<script type="math/tex; mode=display">% <![CDATA[
+\begin{aligned} 
+A(B+C) &= AB+AC \\
+  \\
+  (A+B)(A+C) &= A+BC \\
+  &= AA+AC+BA+BC \\ 
+  &= A+AC+BA+BC \\ 
+  &= A(1+C+B)+BC \\
+  &= A1+BC \\ 
+  &= A+BC
+  \end{aligned} %]]></script>
+
+<hr />
+
+<ul>
+  <li>
+    <p><strong>Complements</strong></p>
+
+    <script type="math/tex; mode=display">% <![CDATA[
+\begin{aligned}
+A+\overline{A} &= 1 \\
+\\
+A\overline{A} &= 0 \\
+\end{aligned} %]]></script>
+  </li>
+</ul>
+
+<hr />
+
+<ul>
+  <li><strong>Absorption</strong></li>
+</ul>
+
+<script type="math/tex; mode=display">% <![CDATA[
+\begin{aligned}
+A+AB &= A \\
+  &= A(1+B) \\
+&= A1 \\
+  &= A \\
+\\
+  A+\overline{A}B &= A+B \\
+&= A+AB+\overline{A}B \\
+  &= A+B(A+\overline{A}) \\
+&= A+B1 \\
+  &= A+B \\
+  \\
+  A(A+B) &= A \\
+  &= A(A+\overline{A}B) \\
+  &= AA+A\overline{A}B \\
+  &= A+0B \\
+  &= A \\
+  \\
+  A(\overline{A}+B) &= AB \\
+  \end{aligned} %]]></script>
+
+<hr />
+
+<ul>
+  <li><strong>Reduction</strong></li>
+</ul>
+
+<script type="math/tex; mode=display">% <![CDATA[
+\begin{aligned}
+AB+\overline{A}B &= B \\
+  \\
+  (A+B)(\overline{A}+B) &= B \\
+  &= A\overline{A}+AB+B\overline{A}+BB \\
+  &= 0+B(A+\overline{A})+B \\
+  &= B0+B \\
+  &= B \\
+  \end{aligned} %]]></script>
+
+<hr />
+
+<ul>
+  <li>
+    <p><strong>De Morgan’s Law</strong></p>
+
+    <script type="math/tex; mode=display">% <![CDATA[
+\begin{aligned}
+\overline{A}+\overline{B} &= \overline{(AB)} \\
+\\
+\overline{A}\overline{B} &= \overline{(A+B)} \\
+\end{aligned} %]]></script>
   </li>
 </ul>
 
@@ -234,7 +215,7 @@
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
-          <li class="p-name">晴耕雨読</li><li><a class="u-email" href="mailto:your-email@example.com">your-email@example.com</a></li></ul>
+          <li class="p-name">晴耕雨読</li></ul>
       </div>
 
       <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/zangsy"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">zangsy</span></a></li></ul>

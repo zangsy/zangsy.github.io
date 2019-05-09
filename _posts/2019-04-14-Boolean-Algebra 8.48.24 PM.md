@@ -10,80 +10,148 @@ tags:
 
 > 1. A, B and C in the follwoing are all binary.
 >
-> 2. ¬ means not.
 
 
 
 - **OR rules**
-  - A + 1 = 1​
-  - A + 0 = A​
-  - A + A = A
+  
+  
+  $$
+  \begin{aligned}
+  A + 1 &= 1 \\ 
+  \\
+  A + 0 &= A \\ 
+  \\
+  A + A &= A \\
+  \end{aligned}
+  $$
 
 ---
 
 - **AND rules**
-  - A 1 = A​
-  - A 0 = 0
-  - A A = A
+  
+  
+  $$
+  \begin{aligned} 
+  A1 &= A \\ 
+  \\
+  A0 &= 0 \\ 
+  \\
+  AA &= A \\
+  \end{aligned}
+  $$
 
 ---
 
 - **Commutative**
-  - A + B = B + A​
-  - A B = B A
+  
+  
+  $$
+  \begin{aligned} 
+  A+B &= B+A \\
+  \\
+  AB &= BA \\
+  \end{aligned}
+  $$
 
 ---
 
 * **Associative**
-  * (A + B) + C = A + (B + C)​
-  * (A B) C = A (B C)​
+  
+  
+  $$
+  \begin{aligned} 
+  (A+B)+C &= A+(B+C) \\
+  \\
+  (AB)C &= A(BC) \\
+  \end{aligned}
+  $$
 
 ---
 
 * **Distributive**
 
-  * A (B + C) = A B + A C​
-
-  * (A + B) (A + C) = A + B C​
-
-    * > (A + B) (A + C) = A A + A C + B A + B C = A + A C + B A + B C = A (1 + C + B) + B C = A 1 + B C = A + B C
+  
+$$
+  \begin{aligned} 
+A(B+C) &= AB+AC \\
+  \\
+  (A+B)(A+C) &= A+BC \\
+  &= AA+AC+BA+BC \\ 
+  &= A+AC+BA+BC \\ 
+  &= A(1+C+B)+BC \\
+  &= A1+BC \\ 
+  &= A+BC
+  \end{aligned}
+  $$
 
 ---
 
 * **Complements**
-  * A + ¬A = 1
-  * A ¬A = 0​
+  
+  
+  $$
+  \begin{aligned}
+  A+\overline{A} &= 1 \\
+  \\
+  A\overline{A} &= 0 \\
+  \end{aligned}
+  $$
 
 ---
 
 * **Absorption**
 
-  * A + A B = A
-
-    * > A + A B = A (1 + B) = A 1 = A​
-
-  * A + ¬A B = A + B​
-
-    * > A + ¬A B = A + A B + ¬A B = A + B (A + ¬A) = A + B 1 = A + B​
-
-  * A (A + B) = A​
-
-    * >A (A + B) = A (A + ¬A B) = A A + A ¬A B = A + 0 B = A​
-
-  * A (¬A + B) = A B​
+  
+$$
+  \begin{aligned}
+A+AB &= A \\
+  &= A(1+B) \\
+&= A1 \\
+  &= A \\
+\\
+  A+\overline{A}B &= A+B \\
+&= A+AB+\overline{A}B \\
+  &= A+B(A+\overline{A}) \\
+&= A+B1 \\
+  &= A+B \\
+  \\
+  A(A+B) &= A \\
+  &= A(A+\overline{A}B) \\
+  &= AA+A\overline{A}B \\
+  &= A+0B \\
+  &= A \\
+  \\
+  A(\overline{A}+B) &= AB \\
+  \end{aligned}
+  $$
 
 ---
 
 * **Reduction**
 
-  * A B + ¬A B = B​	
-
-  * (A + B) (¬A + B) = B​
-
-    * > (A + B) (¬A + B) = A ¬A + A B + B ¬A + B B = 0 + B (A + ¬A) + B = B 0 + B = B​
+  
+$$
+  \begin{aligned}
+AB+\overline{A}B &= B \\
+  \\
+  (A+B)(\overline{A}+B) &= B \\
+  &= A\overline{A}+AB+B\overline{A}+BB \\
+  &= 0+B(A+\overline{A})+B \\
+  &= B0+B \\
+  &= B \\
+  \end{aligned}
+  $$
 
 ---
 
 * **De Morgan's Law**
-  * ¬A + ¬B = ¬(A B)
-  * ¬A ¬B = ¬(A + B)
+  
+  
+  $$
+  \begin{aligned}
+  \overline{A}+\overline{B} &= \overline{(AB)} \\
+  \\
+  \overline{A}\overline{B} &= \overline{(A+B)} \\
+  \end{aligned}
+  $$
